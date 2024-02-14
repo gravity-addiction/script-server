@@ -51,7 +51,7 @@
              v-on:keyup="inputKeyUpHandler">
     </div>
 
-    <executions-log-table v-if="scriptConfig" :rows="scriptConfig.history"/>
+    <!-- <executions-log-table v-if="scriptConfig" :script="scriptConfig"/> -->
     <ScriptViewScheduleHolder v-if="!hideExecutionControls"
                               ref="scheduleHolder"
                               :scriptConfigComponentsHeight="scriptConfigComponentsHeight"
